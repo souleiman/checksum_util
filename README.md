@@ -1,6 +1,6 @@
 checksum_util
 =========
-Various minimalistic checksum 
+Various minimalistic checksum for Windows user
 
 Requirements
 ------------
@@ -15,7 +15,7 @@ Requirements
     # For Windows
     ./install.bat
 
-    # For Linux / Mac users
+    # For Linux / Mac users (Note you are better off using the checksum provided by your OS)
     chmod +x install.sh
     ./install.sh
     
@@ -32,3 +32,5 @@ Once installed, you should be able to run the following:
 |sha512sum|
 
 Note: You will need to set GOBIN to your path (Environment Variables for Windows; bash profile for linux/mac)
+
+> md5sum filename
