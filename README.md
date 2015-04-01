@@ -23,7 +23,7 @@ Requirements
 Once installed, you should be able to run the following:
 
 |checksums|
-----------
+:----------:
 |md5sum|
 |sha1sum|
 |sha224sum|
