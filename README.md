@@ -1,6 +1,6 @@
 checksum_util
 =========
-Various minimalistic checksum for Windows user
+Various minimalistic checksum for Windows user who don't want to use Cygwin.
 
 Requirements
 ------------
@@ -15,7 +15,7 @@ Requirements
     # For Windows
     ./install.bat
 
-    # For Linux / Mac users (Note you are better off using the checksum provided by your OS)
+    # For Linux / Mac users (Note: you are better off using the checksum provided by your OS)
     chmod +x install.sh
     ./install.sh
     
