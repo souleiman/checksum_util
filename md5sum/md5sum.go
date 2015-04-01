@@ -14,7 +14,7 @@ func main() {
 
     args, _ := docopt.Parse(usage, nil, true, "md5sum 1.0", false)
 
-    files := args["<files>"]
+    files := args["<files>"].([]string)
     for _, file := range files {
         sum, err := checksum.Compute(md5.New(), file)
 
