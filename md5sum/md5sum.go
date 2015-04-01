@@ -23,6 +23,6 @@ func main() {
             continue
         }
 
-        fmt.Printf("%x\n\t%s", sum, file)
+        fmt.Printf("%x\t%s\n", sum, file)
     }
 }
